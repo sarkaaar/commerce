@@ -33,6 +33,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
               </Link>
             ))}
           </nav>
+          
         </div>
         {process.env.COMMERCE_SEARCH_ENABLED && (
           <div className="justify-center flex-1 hidden lg:flex">
